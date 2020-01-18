@@ -21,7 +21,7 @@ for table in tables:
 
 
 # Construct a reference to the "full" table
-table_ref = dataset_ref.table("full")
+table_ref = dataset_ref.table("crime")
 
 # API request - fetch the table
 table = client.get_table(table_ref)
